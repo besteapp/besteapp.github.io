@@ -1,0 +1,131 @@
+# Site settings
+future: true
+title: "Microsoft Developer Meetup Regensburg"
+email: info@dotnet-regensburg.de
+description: "Das Microsoft Developer Meetup Regensburg ist eine Gemeinschaft von Softwareentwicklern, die sich mehrmals pro Jahr (üblicherweise monatlich während der Vorlesungszeit an der Universität und technischen Hochschule) zu Vorträgen trifft. Bei den Veranstaltungen halten wir den Fokus auf Microsoft-Technologien in unterschiedlichsten Themengebieten: von Programmierung, Design Patterns, Softwareentwicklungsprozesse, Einsatz von neuesten Produkte und Frameworks, Client und Serviceentwicklung, bis hin zu Cloud und KI ist alles vertreten. Egal, ob Anfänger oder Experte, Spaß soll es machen - neben den Vorträgen können Sie auch die anderen Mitglieder unserer Gruppe kennenlernen. Vielleicht lernen Sie ja so Ihren nächsten Mitarbeiter kennen."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 2879d0
+  secondary: 2268b2  
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Thomas Ebert
+  pic: thomas-ebert
+  position: "Gründer, Organisator"
+  social:
+    - title: xing
+      url: https://www.xing.com/profile/Thomas_Ebert23
+    - title: twitter
+      url: https://twitter.com/ebtom
+    - title: linkedin
+      url: https://de.linkedin.com/pub/thomas-ebert/21/562/13a
+
+- name: Roland Wurm
+  pic: roland-wurm
+  position: Gründer
+  social:
+    - title: facebook
+      url: https://www.facebook.com/pages/CONCEPTNET-GmbH/195439487148007
+    - title: youtube
+      url: https://www.youtube.com/user/conceptnet
+    - title: xing
+      url: https://www.xing.com/profile/Roland_Wurm4
+
+- name: Kenny Pflug
+  pic: kenny-pflug
+  position: "Organisator, Sprecher"
+  social:
+    - title: twitter
+      url: https://twitter.com/feo2x
+    - title: github
+      url: https://github.com/feO2x
+    - title: youtube
+      url: https://www.youtube.com/channel/UCfS1gb_r6GUfPd1EV82aBzg
+
+- name: Roland König
+  pic: roland-koenig
+  position: "Sprecher"
+  social:
+    - title: rss
+      url: http://www.rolandk.de/wp/
+    - title: github
+      url: https://github.com/RolandKoenig
+    - title: facebook
+      url: https://www.facebook.com/roland.konig.14
+
+- name: Florian Rappl
+  pic: florian-rappl
+  position: "Website, Sprecher"
+  social:
+    - title: twitter
+      url: https://twitter.com/FlorianRappl
+    - title: github
+      url: https://github.com/FlorianRappl
+    - title: rss
+      url: http://www.florian-rappl.de
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: http://github.com/DotNetRegensburg
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: .NET Usergroup Regensburg
+  - line: c/o Roland Wurm
+  - line: CONCEPTNET GmbH
+  - line: 93055 Regensburg
+
+# Sponsors
+sponsors:
+  top:
+    - name: "CONCEPTNET GmbH"
+      link: http://www.conceptnet.de/
+      logo: conceptnet.gif
+    - name: "dotnetpro"
+      link: http://www.dotnetpro.de/
+      logo: dotnetpro.gif
+    - name: "IT-Speicher Regensburg"
+      link: http://www.it-speicher.de/
+      logo: itspeicher.gif
+    - name: "Pluralsight"
+      link: http://www.pluralsight-training.net/
+      logo: pluralsight.png
+  middle:
+    - name: "IGZ Logistics & IT GmbH"
+      link: http://www.igz.com/
+      logo: igz-logistik.jpg
+    - name: "initPRO GmbH"
+      link: http://www.initpro.de/
+      logo: initpro.jpg
+    - name: "IHK Regensburg"
+      link: http://www.ihk-regensburg.de/
+      logo: ihk.gif
+  ads:
+    - name: "combit Software"
+      link: https://www.combit.net/
+      logo: combit.gif
+    - name: "JetBrains ReSharper"
+      link: https://www.jetbrains.com/resharper/
+      logo: resharper.gif
+    - name: "SQLDog Utility Suite"
+      link: http://www.sqldog.com/
+      logo: sqldog.gif
+  bottom:
+    - name: "Community Leader/Insider Program"
+      link: http://www.microsoft.com/germany/community/programme/clip.mspx
+      logo: clip.png
+    - name: "International .NET Association"
+      link: http://www.ineta.org
+      logo: ineta.gif
+    - name: "WESQ GmbH & Co. KG"
+      link: http://www.wesq.de/
+      logo: wesq.jpg
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
